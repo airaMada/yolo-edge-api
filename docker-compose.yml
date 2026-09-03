@@ -1,3 +1,5 @@
+#alguma coisa
+
 services:
   yolo-api:
     image: ghcr.io/airamada/yolo-edge-api/yolo-api:latest
