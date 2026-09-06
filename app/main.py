@@ -9,6 +9,7 @@ import httpx
 import numpy as np
 
 # Adicionar após os imports existentes em app/main.py
+# alguma coisa
 
 import json
 import uuid
