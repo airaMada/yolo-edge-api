@@ -2,11 +2,8 @@
 
 services:
   yolo-api:
-    image: ghcr.io/airamada/yolo-edge-api/yolo-api:latest
+    image: ${YOLO_API_IMAGE:-ghcr.io/airamada/yolo-edge-api/yolo-api:latest}
 
-    build:
-      context: .
-      dockerfile: Dockerfile.api
     container_name: yolo-api
     ports:
       - "8000:8000"
