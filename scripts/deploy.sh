@@ -71,5 +71,3 @@ else
     exit 1
 fi
 
-# Torna o script executável
-chmod +x scripts/deploy.sh
