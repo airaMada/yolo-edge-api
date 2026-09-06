@@ -1,18 +1,14 @@
 import asyncio
 import base64
 import io
+import json
 import subprocess
 import time
+import uuid
 
 import cv2
 import httpx
 import numpy as np
-
-# Adicionar após os imports existentes em app/main.py
-# alguma coisa
-
-import json
-import uuid
 
 
 def log_event(event: str, level: str = "INFO", **kwargs):
