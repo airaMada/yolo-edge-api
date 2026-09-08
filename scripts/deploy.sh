@@ -35,7 +35,7 @@ docker compose pull
 
 # ── Sobe a nova versão ───────────────────────────────────────
 echo "[2/4] Iniciando nova versão..."
-docker compose up -d
+docker compose up -d --build
 
 
 # ── Aguarda o serviço estabilizar ────────────────────────────
